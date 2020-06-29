@@ -1,0 +1,71 @@
+/*
+Theme Name: WPLMS Blank ChildTheme
+Theme URI: http://www.VibeThemes.com    
+Description: Child Theme for WPLMS WordPress Theme
+Author: VibeThemes
+Author URI: http://themeforest.com/user/vibethemes
+Template: wplms
+Version: 1.0
+*/
+
+@import url("../wplms/style.css");
+
+
+#buddypress div.item-list-tabs,a.button.create-group-button.full,#buddypress ul.item-list li .item-credits strong,div#course-pricing strong{
+    display:none !important;
+}
+
+div#vibe_course_categories-2.widget.Course.Categories{
+    margin-top:50px !important;
+}
+
+
+
+#buddypress .widget_title, .widget .widget_title{
+    font-weight:bold !important;
+    font-family: poppins !important;
+}
+
+/*Map and right widget in the contact page */
+div.v_module.v_text_block{
+    margin-top:50px !important;
+}
+
+/*#title {*/
+/*        padding-top: 80px !important;*/
+    
+/*}*/
+
+/*Form CSS*/
+.wplms_registration_form {
+    background-color: transparent !important;
+    
+}
+
+.wplms_registration_form select {
+    
+    background-color : #fff !important;
+    
+}
+
+
+
+#signup_form  p  {
+    
+    visibility : hidden !important;
+}
+
+div.no.content {
+    margin-top : 0px !important;
+    padding-top : 0px !important;
+     padding-bottom : 0px !important;
+     margin-bottom : 0px !important;
+}
+
+#content {
+    
+    padding-bottom : 0 !important;
+}
+
+
+

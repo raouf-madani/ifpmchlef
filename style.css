@@ -1,0 +1,184 @@
+/*
+Theme Name: WPLMS Blank ChildTheme
+Theme URI: http://www.VibeThemes.com
+Template: wplms
+Author: VibeThemes
+Author URI: http://themeforest.com/user/vibethemes
+Description: Child Theme for WPLMS WordPress Theme
+Version: 1.0.1591864609
+Updated: 2020-06-11 08:36:49
+
+*/
+
+.wplms_registration_form {
+    background-color: transparent !important;
+}
+#buddypress div.item-list-tabs, a.button.create-group-button.full, #buddypress ul.item-list li .item-credits strong, div#course-pricing strong {
+    display: none !important;
+}
+div#vibe_course_categories-2.widget.Course.Categories {
+    margin-top: 50px !important;
+}
+#buddypress .widget_title, .widget .widget_title {
+    font-family: Rubik !important;
+    font-weight: bold !important;
+}
+div.v_module.v_text_block {
+    margin-top: 50px !important;
+}
+.wplms_registration_form select {
+    background-color: #fff !important;
+}
+/* #signup_form  p {
+    visibility: hidden !important;
+} */
+
+.field-visibility-settings-notoggle {
+	display: none !important;
+}
+
+#field_67-3 {
+	font-family: monospace;
+    font-weight: bold;
+    padding : 5px ;
+	background: #9c2b2e;
+    margin: 10px 0px;
+}
+
+.message {
+	color : black ;
+}
+
+div.no.content {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+div.content {
+	margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+	
+}
+#content {
+    padding-bottom: 0 !important;
+}
+
+#title {
+	padding-top : 120px !important ;
+}
+
+.bp-required-field-label{
+	visibility:hidden ;
+	
+}
+
+select.form_field.select{
+	background-color:#fff !important;
+}
+
+#vibe_course_categories-2 .widget_title span,.course_filters h4{
+	color:#33cac8 !important;
+}
+
+div#bp_course_filter_widget-2.widget.buddypress-course-filter-widget{
+	margin-top:50px !important;
+}
+/******************/
+header.sleek.transparent {
+	z-index: 2000 !important;
+}
+
+#menu-item-upload{
+	color:#33cac8 !important;
+}
+li.events,#create_course_templates_wrapper{
+	display:none !important;
+}
+
+/*******************/
+.error.light,.breadcrumbs,#edit,#course-pricing,#curriculum{
+	display : none !important ;
+}
+/*li.course_settings,li.course_curriculum,li.vibe_vibe_partial_free_course,li.vibe_vibe_course_apply,li.vibe_save_course_creation_template,.course_settings{
+	display:none !important;
+}*/
+.edit_course_content #course_pricing article>ul li{
+	border-bottom:none!important;
+}
+
+.small_desc a:hover{
+	color:#33cac8 !important;
+}
+.small_desc a{
+	color: #ff4177 !important
+}
+/****************************************************/
+#item-meta {
+	display : none !important ;
+}
+
+#course-list li .item-meta,.course_excerpt{
+	
+	display : none !important ;
+}
+
+/*Cotnact form 7 styles */
+.wpcf7 textarea{width:80% !important;height:80px !important; padding-top:10px !important;padding-left:10px !important;}
+.wpcf7 input{width:80% !important;height:25px !important;padding-left:10px !important; }
+.wpcf7 select{width:80% !important;height:25px !important;background-color:white;padding-left:10px !important;}
+.wpcf7 input[type=submit]{width:25% !important; height:40px !important;}
+
+/*REGISTER FORM*/
+/* #field_91 , #field_91-1 ,#field_117,#field_117-1,#field_127,#field_127-1,#field_142,#field_142-1,#field_148,#field_148-1,#field_153,#field_153-1,#field_166,#field_166-1,#field_172,#field_172-1,#field_174,#field_174-1 {
+	display : none !important ;
+} */
+
+.bp-profile-field.field_91 ,.bp-profile-field.field_436,.submit_registration_form.button {
+	display:none !important ;
+}
+
+/*FORGOT PASSWORD*/
+.standard-form a.tip{
+	color : #444 !important ;
+}
+
+#course-dir-count-bottom{
+	visibility : hidden !important ;
+}
+
+#course-dir-count-top {
+	visibility : hidden !important ;
+}
+
+/*Courses Instructor */
+#buddypress ul.item-list li .item-credits, .item-credits{
+	display:none !important;
+}
+/*Hide free course inside instructor profile */
+.block.courseitem .block_content .star-rating + a,.block.courseitem .block_content .star-rating + strong{
+	display:none !important;
+}
+
+/*Hide search icon */
+#new_searchicon{
+	display:none !important;
+}
+/*sidebar*/
+#hareth li:nth-child(-n+2) {
+    display: none !important;
+}
+
+.icon-comment.tip , .stats_user_course_status{
+	
+	display : none !important ;
+}
+
+.featured{
+	display:none !important;
+}
+
+
